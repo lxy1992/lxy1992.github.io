@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Life Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #06090d;
+      color: #eef6f8;
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background:
+        linear-gradient(rgba(42, 238, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(42, 238, 255, 0.04) 1px, transparent 1px),
+        #06090d;
+      background-size: 28px 28px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 28px;
+      border: 1px solid rgba(72, 220, 255, 0.25);
+      border-radius: 8px;
+      background: rgba(3, 8, 13, 0.82);
+      box-shadow: 0 0 40px rgba(13, 199, 222, 0.08);
+    }
+    h1, h2 {
+      line-height: 1.15;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #58dfff;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+    }
+    p, li {
+      color: rgba(238, 246, 248, 0.78);
+      line-height: 1.65;
+    }
+    .date {
+      color: rgba(88, 223, 255, 0.72);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Personal Life Privacy Policy</h1>
+    <p class="date">Effective date: May 16, 2026</p>
+
+    <p>Personal Life is a private personal data dashboard for iPhone and iPad. It is designed for personal use and does not operate a developer-owned analytics backend, advertising service, or account system.</p>
+
+    <h2>Data The App Can Access</h2>
+    <p>Personal Life can access the following data only after the user grants permission or configures a connection:</p>
+    <ul>
+      <li>HealthKit data, including activity, sleep, vitals, body measurements, workouts, water intake, caffeine intake, and related health metrics.</li>
+      <li>Location data, including current location fixes and iOS visit events used to build a private location timeline.</li>
+      <li>Wakapi coding activity from a user-supplied Wakapi server URL and API token.</li>
+      <li>App settings such as connection state, sync coverage, saved places, and display preferences.</li>
+    </ul>
+
+    <h2>How Data Is Used</h2>
+    <p>The app uses this data to show personal dashboards, timelines, trend charts, and lightweight insights. HealthKit, location, and Wakapi data are not used for advertising, tracking, or third-party analytics.</p>
+
+    <h2>Storage And Sync</h2>
+    <p>Personal Life stores data locally on the device using Apple's local storage frameworks. The app does not sync imported HealthKit, location, or Wakapi data through iCloud or CloudKit, and the developer does not run a separate server that receives this data.</p>
+    <p>Wakapi credentials are used only to connect to the Wakapi server configured by the user. The server address, username, and API token should belong to the user or a service the user controls.</p>
+
+    <h2>Sharing</h2>
+    <p>Personal Life does not sell personal data and does not share HealthKit, location, or Wakapi data with advertisers or data brokers. Data may be processed by Apple services that are part of iOS, HealthKit, TestFlight, or App Store distribution.</p>
+
+    <h2>Data Deletion</h2>
+    <p>Users can delete local app data from Settings &gt; Local Data &gt; Delete Local Data inside the app. This clears imported HealthKit, location, and Wakapi data from the device, removes local sync state and Wakapi credentials, and pauses continuous location tracking. Users can also delete app data by deleting the app from their devices. HealthKit permissions can be changed in the iOS Health app or iOS Settings. Location permissions can be changed in iOS Settings.</p>
+
+    <h2>Contact</h2>
+    <p>For TestFlight builds, use the feedback address configured in App Store Connect or the TestFlight feedback flow.</p>
+  </main>
+</body>
+</html>

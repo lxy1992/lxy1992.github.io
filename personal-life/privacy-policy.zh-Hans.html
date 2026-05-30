@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Life 隐私政策</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #06090d;
+      color: #eef6f8;
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background:
+        linear-gradient(rgba(42, 238, 255, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(42, 238, 255, 0.04) 1px, transparent 1px),
+        #06090d;
+      background-size: 28px 28px;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 28px;
+      border: 1px solid rgba(72, 220, 255, 0.25);
+      border-radius: 8px;
+      background: rgba(3, 8, 13, 0.82);
+      box-shadow: 0 0 40px rgba(13, 199, 222, 0.08);
+    }
+    h1, h2 {
+      line-height: 1.15;
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #58dfff;
+      font-size: 1.05rem;
+    }
+    p, li {
+      color: rgba(238, 246, 248, 0.78);
+      line-height: 1.65;
+    }
+    .date {
+      color: rgba(88, 223, 255, 0.72);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Personal Life 隐私政策</h1>
+    <p class="date">生效日期：2026 年 5 月 16 日</p>
+
+    <p>Personal Life 是一款用于 iPhone 和 iPad 的私人个人数据看板。它面向个人使用，不运营开发者自有的分析后端、广告服务或账号系统。</p>
+
+    <h2>App 可访问的数据</h2>
+    <p>Personal Life 只会在用户授权或配置连接后访问以下数据：</p>
+    <ul>
+      <li>HealthKit 数据，包括活动、睡眠、生命体征、身体测量、体能训练、饮水、咖啡因摄入和相关健康指标。</li>
+      <li>位置数据，包括当前位置和 iOS 停留事件，用于生成私人位置时间线。</li>
+      <li>用户提供的 Wakapi 服务器 URL 和 API token 对应的编码活动数据。</li>
+      <li>App 设置，例如连接状态、同步范围、固定地点和显示偏好。</li>
+    </ul>
+
+    <h2>数据用途</h2>
+    <p>App 使用这些数据展示个人看板、时间线、趋势图和轻量洞察。HealthKit、位置和 Wakapi 数据不会用于广告、跨 App 跟踪或第三方分析。</p>
+
+    <h2>存储与同步</h2>
+    <p>Personal Life 使用 Apple 的本地存储框架将数据保存在设备本机。App 不会通过 iCloud 或 CloudKit 同步导入的 HealthKit、位置或 Wakapi 数据，开发者也不运营接收这些数据的独立服务器。</p>
+    <p>Wakapi 凭证只用于连接用户配置的 Wakapi 服务器。服务器地址、用户名和 API token 应属于用户本人或用户控制的服务。</p>
+
+    <h2>共享</h2>
+    <p>Personal Life 不出售个人数据，也不会与广告商或数据经纪商共享 HealthKit、位置或 Wakapi 数据。作为 iOS、HealthKit、TestFlight 或 App Store 分发的一部分，Apple 服务可能会处理相关数据。</p>
+
+    <h2>数据删除</h2>
+    <p>用户可以在 App 内通过“设置 &gt; 本地数据 &gt; 删除本地数据”删除本机 App 数据。这会清除设备上的 HealthKit、位置和 Wakapi 导入数据，移除本地同步状态和 Wakapi 凭证，并暂停持续位置追踪。用户也可以通过删除 App 来删除本机 App 数据。HealthKit 权限可在 iOS 健康 App 或 iOS 设置中更改，位置权限可在 iOS 设置中更改。</p>
+
+    <h2>联系方式</h2>
+    <p>TestFlight 版本请使用 App Store Connect 中配置的反馈邮箱，或通过 TestFlight 反馈流程联系。</p>
+  </main>
+</body>
+</html>
