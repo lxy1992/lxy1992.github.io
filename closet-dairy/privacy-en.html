@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Closet Dairy Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #080b10;
+      color: #eef6f8;
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      background:
+        linear-gradient(rgba(113, 205, 206, 0.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(113, 205, 206, 0.045) 1px, transparent 1px),
+        #080b10;
+      background-size: 28px 28px;
+    }
+    main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 30px;
+      border: 1px solid rgba(113, 205, 206, 0.26);
+      border-radius: 8px;
+      background: rgba(5, 10, 16, 0.86);
+      box-shadow: 0 0 40px rgba(36, 150, 158, 0.09);
+    }
+    h1, h2 {
+      line-height: 1.18;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    h2 {
+      margin-top: 2rem;
+      color: #83d8da;
+      font-size: 1.08rem;
+      text-transform: uppercase;
+    }
+    p, li {
+      color: rgba(238, 246, 248, 0.8);
+      line-height: 1.68;
+    }
+    a {
+      color: #9ee6e7;
+    }
+    .date, .language {
+      color: rgba(131, 216, 218, 0.76);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.9rem;
+    }
+    .language {
+      margin-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Closet Dairy Privacy Policy</h1>
+    <p class="date">Effective date: June 3, 2026</p>
+    <p class="language"><a href="./privacy-zh.html">中文版</a></p>
+
+    <p>Closet Dairy is a personal wardrobe, outfit log, and weather-assisted recommendation app for iPhone and iPad. This policy explains how Closet Dairy handles local wardrobe data, account and subscription data, weather location data, photos, and data related to optional smart features.</p>
+
+    <h2>1. Scope</h2>
+    <p>This policy applies to the Closet Dairy iOS app. Closet Dairy is local-first by default, and the main wardrobe database is primarily stored on your device. Account, subscription, weather, AI recognition, and virtual try-on features are optional or triggered by specific user actions. Using those features may involve backend services, Apple services, or third-party services.</p>
+
+    <h2>2. Local Wardrobe Data</h2>
+    <p>Wardrobe items, item photos, outfit combinations, calendar outfit logs, travel plans, packing lists, categories, tags, brands, sizes, colors, occasions, favorites, trash, and related settings that you create or import in the app are stored locally on your device by default. Signing in does not automatically upload your main local wardrobe data.</p>
+    <p>Local data can be deleted through the app's data management features or removed from the device by deleting the app. iOS system backup or device migration may handle local app data according to Apple's system mechanisms.</p>
+
+    <h2>3. Account, Sign-In, and Subscription</h2>
+    <p>Closet Dairy supports anonymous use. Registration, Sign in with Apple, or email sign-in are used for account state, entitlements, subscriptions, usage quotas, and account deletion. After sign-in, the backend may process user IDs, account status, authentication token state, device or installation identifiers, email status, Apple sign-in identifiers, account deletion requests, and necessary security or error information. Sensitive access tokens are stored in the iOS Keychain.</p>
+    <p>If you purchase or restore a Pro subscription, the app uses Apple StoreKit to process the purchase and sends the necessary transaction credential, transaction environment, product ID, subscription state, entitlement state, and processing result to the backend to validate the subscription and deliver entitlements. Subscription cancellation and refunds are handled through your Apple account and App Store subscription management.</p>
+
+    <h2>4. Location and Weather</h2>
+    <p>Weather features request location only after you grant "While Using the App" location permission or actively use a weather-related feature. The app sends latitude and longitude to a backend weather proxy to request current weather, tomorrow's weather, historical weather, or travel destination weather, and to generate weather signals used for outfit recommendations.</p>
+    <p>The backend weather proxy may call Caiyun Weather, Visual Crossing, or other weather service providers. The app and backend may cache weather results, request timestamps, error states, and necessary service-level usage information to reduce repeated requests, control cost, and troubleshoot issues. Closet Dairy does not request continuous background location access and does not use location for advertising or cross-app tracking.</p>
+
+    <h2>5. Photos, Camera, and User Content</h2>
+    <p>Camera and photo library permissions are used to take or select clothing photos, save processed images, bulk import wardrobe items, create outfit records, configure a virtual try-on avatar, and save try-on results. Ordinary wardrobe photos and processed images are stored locally on your device by default.</p>
+    <p>On-device processing such as background removal, dominant color extraction, and image compression is performed locally where possible. Unless you actively use a networked feature, Closet Dairy does not automatically upload all local wardrobe photos merely because you add items to your wardrobe.</p>
+
+    <h2>6. AI Recognition, Chat Recommendations, and Virtual Try-On</h2>
+    <p>AI recognition, bulk attribute enrichment, chat-based outfit recommendations, and virtual try-on are optional smart features. When you enable or use these features, selected images, wardrobe attributes, outfit context, text prompts, chat content, weather context, avatar images, and information related to generated results may be sent to an AI service configured by you or to a Closet Dairy backend proxy for processing.</p>
+    <p>Virtual try-on shows a separate in-app privacy notice before use. You can revoke try-on consent, delete your avatar, clear try-on history, or turn off related smart features. AI and try-on results are for reference only and may be inaccurate. Please do not upload images you do not have the right to process or content that you do not want the relevant services to process.</p>
+
+    <h2>7. Notifications, Logs, and Diagnostics</h2>
+    <p>Notifications are used for outfit reminders, weather reminders, seasonal reminders, and other local reminders you enable. The app sends system notifications only after you grant notification permission. You can turn off notifications in the app or in iOS Settings.</p>
+    <p>To keep account, subscription, weather, and smart features reliable, the app and backend may record request IDs, API paths, timestamps, status codes, error codes, usage counters, subscription processing results, and necessary security events. Backend logs should not store plaintext access tokens, third-party service keys, complete images, complete AI prompts, or precise location content unrelated to troubleshooting. TestFlight, the App Store, iOS, or Apple services may also process crash, feedback, and distribution data according to Apple's rules.</p>
+
+    <h2>8. Data Sharing</h2>
+    <p>Closet Dairy does not sell personal data, does not integrate third-party advertising networks, does not use IDFA, and does not perform cross-app or cross-website tracking. To provide app functionality, relevant data may be processed by the following services:</p>
+    <ul>
+      <li>Apple services, such as StoreKit, Sign in with Apple, TestFlight, App Store distribution, iOS permissions, and system backup mechanisms.</li>
+      <li>Closet Dairy backend services, for account, subscription, entitlement, weather proxy, usage control, account deletion, and troubleshooting features.</li>
+      <li>Weather service providers, to request weather based on location or destinations.</li>
+      <li>AI service providers configured by you or used by the app, for optional AI recognition, chat recommendation, and virtual try-on processing.</li>
+      <li>Hosting, networking, and security service providers, to run public web pages, backend APIs, and infrastructure.</li>
+    </ul>
+
+    <h2>9. Your Choices and Deletion Options</h2>
+    <ul>
+      <li>You can use the core local wardrobe features without signing in.</li>
+      <li>You can revoke camera, photo library, location, and notification permissions in iOS Settings.</li>
+      <li>You can turn off AI recognition, revoke virtual try-on consent, delete your avatar, and clear try-on history inside the app.</li>
+      <li>You can request account deletion from Account and Entitlements inside the app. This processes server-side account, token, entitlement, and related usage data.</li>
+      <li>You can delete local wardrobe data from Data Management inside the app. Local data deletion and server-side account deletion are separate actions.</li>
+      <li>You can cancel a Pro subscription through your Apple account or App Store subscription management.</li>
+    </ul>
+
+    <h2>10. Children and Sensitive Content</h2>
+    <p>Closet Dairy is not directed to children. Please do not upload or process images you do not have the right to use, other people's private content, illegal content, or sensitive content that is not appropriate for AI service processing. If you believe an account or support workflow involves unauthorized data handling, please submit a request through the contact options below.</p>
+
+    <h2>11. Policy Updates</h2>
+    <p>This policy may be updated if Closet Dairy's data handling practices, backend services, third-party services, or release regions materially change. The updated policy will be published on this page and will be identified by the effective date shown above.</p>
+
+    <h2>12. Contact</h2>
+    <p>For TestFlight builds, please use the TestFlight feedback flow or the feedback email configured in App Store Connect. For App Store builds, please use the support link published on the App Store product page. Privacy, account deletion, subscription, and data handling requests can be submitted through those support channels.</p>
+  </main>
+</body>
+</html>
